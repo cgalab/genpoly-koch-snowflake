@@ -6,7 +6,7 @@ Any standard C compiler will do. E.g.:
 
     gcc -O2 -Wall -o make_koch_snowflake make_koch_snowflake.c -lm
 
-Usage:
+# Usage
 
     make_koch_snowflake --number <N> --output <OUTPUTFILE> [--nested]
 
