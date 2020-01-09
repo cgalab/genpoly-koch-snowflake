@@ -1,14 +1,18 @@
-The code make_koch_snowflake generates instances of Koch's snowflake curve.
+The code `make_koch_snowflake` generates instances of Koch's snowflake curve.
 
-Compilation: 
-Any standard C compiler will do. E.g.: 
+# Compilation
+
+Any standard C compiler will do. E.g.:
+
     gcc -O2 -Wall -o make_koch_snowflake make_koch_snowflake.c -lm
 
 Usage:
-    make_koch_snowflake --number N --output XYZ [--nested]
-       where N is a positive integer.
 
-Generating polygonal data: 
+    make_koch_snowflake --number <N> --output <OUTPUTFILE> [--nested]
+
+where N is a positive integer and OUTPUTFILE is the name of the output file.
+
+# Generating polygonal data
 
 The runtime-option "--number N" specifies the order of the snowflake curve.
 For N=1 we simply get a triangle. The curve is written to the file named XYZ,
